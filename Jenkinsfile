@@ -5,7 +5,7 @@ pipeline {
 
         stage('Cloning from git') {
             steps {
-                git branch: 'main', url: 'https://github.com/abdullah117765/demoJenkins'
+                git branch: 'main', url: 'https://github.com/hamza442-ali/MLOPS_CLASS_ACTIVITY_2.git'
             }
         }
 
